@@ -1,16 +1,7 @@
 # abc_d
 
-A new Flutter project.
+A new Flutter project for HCI LAB.
 
-## Getting Started
+## Figma of the project
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+https://www.figma.com/file/9xbzSIcylhmkl6Q5rKLpnP/HCI-LAB-2?type=design&node-id=23%3A52&mode=design&t=bFX6ChDAbKM7TQGz-1
