@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'level1.dart';
+import 'level2.dart';
 
 class Alphabets extends StatelessWidget {
   Alphabets({required Key key, required this.title}) : super(key: key);
@@ -126,9 +127,13 @@ class Alphabets extends StatelessWidget {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => AlphabetsDetails1(
-                                alphabet: capitalAlphabets[index],
-                              ),
+                              builder: (context) => title == '1'
+                                  ? AlphabetsDetails1(
+                                      alphabet: capitalAlphabets[index],
+                                    )
+                                  : Level2(
+                                      alphabet: capitalAlphabets[index],
+                                    ),
                             ));
                       },
                       child: Card(

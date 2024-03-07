@@ -37,7 +37,7 @@ class ScorePage extends StatelessWidget {
             ],
           ),
           SizedBox(height: 245),
-          ElevatedButton(
+          TextButton(
               onPressed: () {
                 Navigator.pop(context);
               },
